@@ -144,7 +144,9 @@
               </div>
             </div>
             <div class="panel-body bg-success">
-              <img class="floatleft" src="https://freight.cargo.site/w/1080/i/e995cdbeeaf928355de6243e6ec309e640589e2f8b2e5cbe0e7f4bc4f0284a2a/naruto_walk_GIF.gif" alt="foto de Naruto">
+              <img class="floatleft"
+                src="https://freight.cargo.site/w/1080/i/e995cdbeeaf928355de6243e6ec309e640589e2f8b2e5cbe0e7f4bc4f0284a2a/naruto_walk_GIF.gif"
+                alt="foto de Naruto">
               <p>Naruto Uzumaki, o ninja que sonha em ser Hokage. Nascido em Konoha, carrega consigo o espírito do
                 Nove-Caudas. Conhecido por sua determinação e espírito indomável, Naruto é um dos ninjas mais talentosos
                 de sua geração. (Artigo completo...)</p>
@@ -261,7 +263,10 @@
               <p class="alignright">Arquivo Mais imagens em destaque...</p>
 
 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/4rRO-6sfbl8?si=t1LuWNjoPjiFy_oF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>             
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/4rRO-6sfbl8?si=t1LuWNjoPjiFy_oF"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -269,12 +274,12 @@
 
       <div class="audio-container">
         <audio id="audioPlayer" controls>
-          <source src="/media/Naruto.mp3" type="audio/mpeg">
+          <source src="https://estebanjgg.github.io/Wikipedia-Clone/Naruto.mp3" type="audio/mpeg">
           Tu navegador no soporta el elemento de audio.
         </audio>
       </div>
-      
-      
+
+
       <div class="row">
         <div class="col-xs-10">
           <h2>Outras áreas da Enciclopédia Naruto</h2>
@@ -302,16 +307,17 @@
 <br>
 <br>
 </body>
-<script >
+<script>
   document.addEventListener('DOMContentLoaded', (event) => {
-  let audioPlayer = document.getElementById('audioPlayer');
-  
-  audioPlayer.volume = 0.02;
- 
-  audioPlayer.play().catch(e => {
-    console.error("La reproducción automática no fue permitida por el navegador. El usuario debe iniciar la reproducción manualmente.");
+    let audioPlayer = document.getElementById('audioPlayer');
+
+    audioPlayer.volume = 0.02;
+
+    audioPlayer.play().catch(e => {
+      console.error("La reproducción automática no fue permitida por el navegador. El usuario debe iniciar la reproducción manualmente.");
+    });
   });
-});
 
 </script>
+
 </html>
